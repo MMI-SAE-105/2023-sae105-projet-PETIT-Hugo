@@ -45,14 +45,25 @@
 }
 
 .footer__contact {
-
+    width: 240px;
+    height: 22px;
+    flex-shrink: 0;
 }
 
-.footer__contact-texte {
+.footer__contact--texte {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
 
 }
 
 .footer__mentions {
+    width: 240px;
+    height: auto;
+    flex-shrink: 0;
 
 }
 
