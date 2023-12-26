@@ -138,29 +138,34 @@
         </div>
 
     </main>
-    <footer>
-        <div>        
+    <footer class="footer">
+        <div class="footer__navigation">        
             <ul>
-                <li>À propos</li>
-                <li>Autres projets</li>
-                <li>Contact</li>
+                <li class="footer__navigation--item">À propos</li>
+                <li class="footer__navigation--item"></li>>Autres projets</li>
+                <li class="footer__navigation--item"></li>>Contact</li>
             </ul>
         </div>
 
-        <a href="/en/index.html">
-            <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en"/>
-        </a>
-
-        <div>
-            <p>Hugo PETIT - Groupe C2</p>
-            <p>hugopetit6996@gmail.com</p>
+        <div class="footer__boutonLangue--conteneur">
+            <a href="/en/index.html">
+                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton"/>
+            </a>
         </div>
-        <div>
-            <p>Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au dépatement MMI Montbéliard</p>
+
+        <div class="footer__contact">
+            <p class="footer__contact--texte">Hugo PETIT - Groupe C2</p>
+            <p class="footer__contact--texte">hugopetit6996@gmail.com</p>
+        </div>
+
+        <div class="footer__mentions">
+            <p class="footer__mentions__texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au dépatement MMI Montbéliard</p>
         </div>
         
-        <img src="/public/img/logo-mmi.svg" alt="logo-mmi"/>
-
+        <div footer="footer__logoMMI">
+            <img src="/public/img/logo-mmi.svg" alt="logo-mmi" class="footer__logoMMI--image"/>
+        </div>
+        
     </footer>
 
 </body>
