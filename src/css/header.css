@@ -1,5 +1,5 @@
 .header {
-    width: 375px;
+    width: 100%;
     height: 98px;
     flex-shrink: 0;
     background: var(--Rouge-header, #9A0606);
