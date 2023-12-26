@@ -30,10 +30,17 @@
 }
 
 .footer__boutonLangue--conteneur {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
 
 }
 
 .footer__boutonLangue--bouton {
+    width: 51px;
+    height: 27px;
+    flex-shrink: 0;
 
 }
 
