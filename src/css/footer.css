@@ -8,3 +8,12 @@
 
 
 }
+
+.footer__mentions--texte {
+    color: #FFB9B9;
+    font-family: Habibi;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
