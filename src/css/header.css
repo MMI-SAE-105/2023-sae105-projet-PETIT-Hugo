@@ -5,6 +5,7 @@
     background: var(--Rouge-header, #9A0606);
     display: flex;
     justify-content: space-around;
+    margin: 0;
     
     
 }
@@ -23,6 +24,7 @@
     width: 57px;
     height: 62px;
     flex-shrink: 0;
+
 }
 
 .header__titre {
@@ -30,6 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+
 }
 
 .header__titre--texte {
@@ -42,6 +45,7 @@
     font-weight: 400;
     line-height: 140%;
 
+
 }
 
 .header__menu--conteneurBouton {
@@ -49,7 +53,7 @@
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
-        
+
 
 }
 
@@ -58,6 +62,7 @@
     width: 35px;
     height: 38px;
     flex-shrink: 0;
+
 
 }
 
