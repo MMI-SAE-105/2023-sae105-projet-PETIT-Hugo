@@ -10,16 +10,21 @@
 }
 
 .footer__navigation {
+    width: 216px;
+    height: auto;
+    flex-shrink: 0;
+    
 
 }
 
 .footer__navigation--item {
+    list-style: none;
     color: #FFF;
     font-family: Playfair Display;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    line-height: 180%;
 
 
 }
