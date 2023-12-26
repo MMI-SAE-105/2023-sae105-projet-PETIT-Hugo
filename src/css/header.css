@@ -27,7 +27,20 @@
 
 }
 
-.header--menu {
-    
+.header__menu--conteneurBouton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        
+
+}
+
+.header__menu--bouton {
+    display: flex;
+    width: 35px;
+    height: 38px;
+    flex-shrink: 0;
+
 }
 
