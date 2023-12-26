@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    padding-right: 10px;
+
 
 }
 
@@ -54,6 +54,7 @@
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
+        padding-right: 8px;
 
 
 }
@@ -67,3 +68,9 @@
 
 }
 
+.header__menu--croix {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+}
