@@ -25,10 +25,16 @@
         </div>
 
         <div class="header__menu--conteneurBouton">         
-            <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton"/>
+            <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton"
+            aria-controls="mainNav"
+            @click="menuIsOpen = !menuIsOpen"/>
         </div>
 
-        <div class="menu">
+        <div 
+        id="mainNav" 
+        x-show="menuIsOpen" 
+        x-transition.duration.200ms
+        class="menu">
 
             <nav>
                 <ul>
