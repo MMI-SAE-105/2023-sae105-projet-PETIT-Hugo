@@ -14,6 +14,13 @@
 }
 
 .footer__navigation--item {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+
 
 }
 
@@ -34,7 +41,7 @@
 }
 
 .footer__mentions {
-    
+
 }
 
 .footer__mentions--texte {
