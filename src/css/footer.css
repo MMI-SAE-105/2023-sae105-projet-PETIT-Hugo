@@ -9,6 +9,34 @@
 
 }
 
+.footer__navigation {
+
+}
+
+.footer__navigation--item {
+
+}
+
+.footer__boutonLangue--conteneur {
+
+}
+
+.footer__boutonLangue--bouton {
+
+}
+
+.footer__contact {
+
+}
+
+.footer__contact-texte {
+
+}
+
+.footer__mentions {
+    
+}
+
 .footer__mentions--texte {
     color: #FFB9B9;
     font-family: Habibi;
@@ -16,4 +44,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+.footer__logoMMI {
+
+}
+
+.footer__logoMMI--image {
+
 }
