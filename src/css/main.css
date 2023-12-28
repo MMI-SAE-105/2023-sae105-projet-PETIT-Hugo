@@ -1,4 +1,8 @@
 body {
     margin: 0;
-    background-color: var(--Rose-ArrierePlan, #FFE0F1);
+    background-color: var(--Rouge-header, #9A0606);
+}
+
+main {
+    background-color: var(--Rose-de-fond, #FFE0F1);
 }
