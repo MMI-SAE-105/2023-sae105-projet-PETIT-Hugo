@@ -90,6 +90,9 @@
     align-items: center;
     flex-shrink: 0;
     position: relative;
+    z-index: 4;
+    float: right;
+    
     
 
 }
@@ -98,5 +101,10 @@
     width: 60px;
     height: 42px;
     flex-shrink: 0;
+    position: relative;
+    z-index: 4;
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 35px;
 
 }
