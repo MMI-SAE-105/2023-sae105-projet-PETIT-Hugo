@@ -69,6 +69,8 @@
     width: 240px;
     height: auto;
     flex-shrink: 0;
+    position: relative;
+    padding-top: 40px;
 
 }
 
