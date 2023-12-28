@@ -53,6 +53,7 @@
     flex-shrink: 0;
     position: relative;
     padding-top: 120px;
+    padding-left: 22px;
 }
 
 .footer__contact--texte {
@@ -70,7 +71,8 @@
     height: auto;
     flex-shrink: 0;
     position: relative;
-    padding-top: 40px;
+    padding-top: 35px;
+    padding-left: 22px;
 
 }
 
@@ -87,7 +89,8 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    float: right;
+    position: relative;
+    
 
 }
 
