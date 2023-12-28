@@ -1,3 +1,7 @@
+.accueil {
+    justify-content: center;
+}
+
 .accueil--image {
     width: 100%;
     height: auto;
@@ -5,10 +9,7 @@
     position: absolute;
     z-index: 1;
     float: left;
-}
-
-.accueil {
-    justify-content: center;
+    border-radius: 0 0 50% 50% / 0 0 3% 3%;
 }
 
 .accueil__titre {
