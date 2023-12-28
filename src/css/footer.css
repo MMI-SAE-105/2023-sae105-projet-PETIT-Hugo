@@ -37,7 +37,8 @@
     position: relative;
     z-index: 4;
     float: right;
-    padding-top: 10px;
+    padding-top: 24px;
+    padding-right: 22px;
 }
 
 .footer__boutonLangue--bouton {
@@ -67,7 +68,7 @@
 }
 
 .footer__mentions {
-    width: 240px;
+    width: 284px;
     height: auto;
     flex-shrink: 0;
     position: relative;
@@ -92,8 +93,6 @@
     position: relative;
     z-index: 4;
     float: right;
-    
-    
 
 }
 
