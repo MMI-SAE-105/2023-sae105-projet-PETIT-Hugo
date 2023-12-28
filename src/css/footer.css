@@ -9,11 +9,10 @@
 }
 
 .footer__navigation {
-    display: flex;
     width: 216px;
     height: auto;
     flex-shrink: 0;
-    z-index: 1;
+    z-index: 8;
     position: absolute;
     
 
@@ -32,11 +31,11 @@
 }
 
 .footer__boutonLangue--conteneur {
-    position: relative;
-    z-index: 4;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    position: relative;
+    z-index: 4;
     float: right;
     padding-top: 10px;
 }
@@ -52,6 +51,8 @@
     width: 240px;
     height: 22px;
     flex-shrink: 0;
+    position: relative;
+    padding-top: 120px;
 }
 
 .footer__contact--texte {
@@ -60,7 +61,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 60%;
 
 }
 
@@ -81,10 +82,10 @@
 }
 
 .footer__logoMMI {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    float: right;
 
 }
 
