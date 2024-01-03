@@ -76,13 +76,18 @@
 
 }
 
-.entreeGauche {
+.entreeGauche--fond {
     background-color: var(--rose-accentuation, #FFA8CB);
+    width: 357px;
+    height: 94.905px;
+    flex-shrink: 0;
 }
 
 .entreeGauche--image--conteneur {
     display: flex;
     flex-shrink: 0;
+    position: relative;
+    z-index: 4;
        
 }
 
@@ -93,12 +98,20 @@
 }
 
 .entreeGauche__titre {
+    width: 195.915px;
+    height: 18.545px;
+    flex-shrink: 0;
+    text-align: right;
+    padding-left: 43%;
+    position: relative;
+    z-index: 5;
+    padding-top: 60px;
+ 
     
+
 }
 
 .entreeGauche__titre__texte {
-    color: var(--Noir-textes, #1C1514);
-    text-align: right;
     font-family: Bodoni Moda;
     font-size: 18px;
     font-style: normal;
