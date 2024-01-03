@@ -81,7 +81,7 @@
     flex-shrink: 0;
     position: absolute;
     z-index: 2;
-    width: 370px;
+    width: 357px;
     height: 140px;
   
 }
@@ -89,8 +89,8 @@
 .entreeGauche--fond {
     background-color: var(--rose-accentuation, #FFA8CB);
     width: 357px;
-    height: 94.905px;
-    margin-top: 18px;
+    height: 110px;
+    margin-top: 30px;
 
 }
 
@@ -101,6 +101,7 @@
     flex-shrink: 0;
     position: relative;
     z-index: 4;
+    padding-top: 22px;
        
 }
 
@@ -111,6 +112,7 @@
 }
 
 .entreeGauche__titre {
+    float: right;
     width: 195.915px;
     height: 18.545px;
     flex-shrink: 0;
@@ -118,7 +120,8 @@
     padding-left: 43%;
     position: relative;
     z-index: 5;
-    padding-top: 1px;
+    padding-top: 14px;
+    padding-right: 25px;
 }
 
 .entreeGauche__titre__texte {
@@ -130,3 +133,4 @@
 
 }
 
+.entreeGauche__description--conteneur
