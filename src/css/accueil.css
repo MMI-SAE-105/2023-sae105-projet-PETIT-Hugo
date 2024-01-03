@@ -108,6 +108,7 @@
     width: 124.079px;
     height: 124.358px;
     border: 2px solid var(--Or, #DDD690);
+    transform: translate(3%, 0%);
 }
 
 .entreeGauche__titre {

@@ -4,5 +4,6 @@ body {
 }
 
 main {
+    margin: 0;
     background-color: var(--Rose-de-fond, #FFE0F1);
 }
