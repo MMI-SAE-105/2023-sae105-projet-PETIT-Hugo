@@ -76,15 +76,25 @@
 
 }
 
+
+.entreeGauche__fond--conteneur {
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+    width: 370px;
+    height: 140px;
+  
+}
+
 .entreeGauche--fond {
     background-color: var(--rose-accentuation, #FFA8CB);
     width: 357px;
     height: 94.905px;
-    flex-shrink: 0;
-    position: absolute;
-    z-index: 2;
+    margin-top: 18px;
 
 }
+
+
 
 .entreeGauche--image--conteneur {
     display: flex;
