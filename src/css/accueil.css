@@ -153,3 +153,14 @@
     font-weight: 400;
     line-height: 140%;
 }
+
+.entreeGauche__bouton--conteneur {
+    float: right;
+    width: 140px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 5%;
+    position: relative;
+    z-index: 8;
+    
+}
