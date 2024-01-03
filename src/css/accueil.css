@@ -36,7 +36,11 @@
     line-height: 140%;
 }
 
-.presentation--barre {
+.presentation {
+    padding-top: 5%;
+}
+
+.presentation__barre--haut {
     width: 245.051px;
     height: 1px;
     background: #784283;
