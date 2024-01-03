@@ -81,6 +81,7 @@
 }
 
 .entreeGauche--image--conteneur {
+    display: flex;
     flex-shrink: 0;
        
 }
@@ -89,5 +90,20 @@
     width: 124.079px;
     height: 124.358px;
     border: 2px solid var(--Or, #DDD690);
+}
+
+.entreeGauche__titre {
+    
+}
+
+.entreeGauche__titre__texte {
+    color: var(--Noir-textes, #1C1514);
+    text-align: right;
+    font-family: Bodoni Moda;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
 }
 
