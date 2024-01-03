@@ -134,9 +134,14 @@
 }
 
 .entreeGauche__description--conteneur {
+    float: right;
     width: 201.357px;
     height: 46.907px;
     flex-shrink: 0;
+    padding-right: 8%;
+    position: relative;
+    z-index: 5;
+    
 }
 
 .entreeGauche__description--texte {
