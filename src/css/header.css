@@ -11,11 +11,11 @@
 }
 
 .header__logo--conteneur {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        padding-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 26px;
 
 }
 

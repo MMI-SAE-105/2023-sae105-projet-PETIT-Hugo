@@ -68,11 +68,6 @@
 
 }
 
-.entreeGauche {
-    float: left;
-}
-
-
 .entreeGauche__fond--conteneur {
     flex-shrink: 0;
     position: absolute;
