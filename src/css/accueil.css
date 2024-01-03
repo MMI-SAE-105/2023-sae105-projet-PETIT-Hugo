@@ -81,6 +81,9 @@
     width: 357px;
     height: 94.905px;
     flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+
 }
 
 .entreeGauche--image--conteneur {
@@ -105,10 +108,7 @@
     padding-left: 43%;
     position: relative;
     z-index: 5;
-    padding-top: 60px;
- 
-    
-
+    padding-top: 1px;
 }
 
 .entreeGauche__titre__texte {
