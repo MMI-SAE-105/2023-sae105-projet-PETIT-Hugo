@@ -75,3 +75,7 @@
     background: #784283;
 
 }
+
+.entreeGauche {
+    background-color: var(--rose-accentuation, #FFA8CB);
+}
