@@ -79,3 +79,13 @@
 .entreeGauche {
     background-color: var(--rose-accentuation, #FFA8CB);
 }
+
+.entreeGauche--image--conteneur {
+    
+}
+
+.entreeGauche--image {
+    width: 124.079px;
+    height: 124.358px;
+    border: 2px solid var(--Or, #DDD690);
+}
