@@ -42,3 +42,21 @@
     background: #784283;
     
 }
+
+.presentation__conteneur {
+    width: 334px;
+    height: 183px;
+    flex-shrink: 0;
+    padding-left: 4%;
+}
+
+.presentation--texte {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+   
+}
