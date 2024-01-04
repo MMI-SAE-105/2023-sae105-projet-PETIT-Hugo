@@ -47,7 +47,7 @@ nav>ul>li {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    margin-top: 6px;
+    margin-top: 8px;
     margin-bottom: 6px;
 }
 
@@ -56,7 +56,9 @@ nav>ul>li>a {
     color: #FFF;
 }
 
-
+.menu__item--bas {
+    margin-bottom: 20px;
+}
 
 .menu__titre--barre {
     border: none;
