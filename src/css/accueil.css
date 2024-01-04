@@ -218,6 +218,20 @@
     padding-right: 6%;
 }
 
+.entreeFilm__titre {
+    float: right;
+    width: 195.915px;
+    height: 18.545px;
+    flex-shrink: 0;
+    padding-left: 43%;
+    position: relative;
+    z-index: 5;
+    padding-top: 4%;
+    padding-right: 6%;
+    transform: translate(-35%, -40%);
+}
+
+
 .entreeDroite__titre__texte {
     font-family: Bodoni Moda;
     font-size: 18px;
@@ -239,6 +253,19 @@
 
 }
 
+.entreeFilm__description--conteneur {
+    float: right;
+    width: 55%;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 8%;
+    position: relative;
+    z-index: 5;
+    padding-top: 5%;
+    transform: translate(-50%, 7%);
+
+}
+
 .entreeDroite__description--texte {
     color: #000;
     font-family: Helvetica;
@@ -256,6 +283,18 @@
     padding-right: 5%;
     position: relative;
     z-index: 8;
+
+}
+
+.entreeFilm__bouton--conteneur {
+    float: right;
+    width: 140px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 5%;
+    position: relative;
+    z-index: 8;
+    transform: translate(-120%, 8%);
 
 }
 
