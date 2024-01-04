@@ -257,6 +257,19 @@
     transform: translate(-34%, -135%);
 }
 
+.entreeLivre__titre {
+    float: right;
+    width: 195.915px;
+    height: 18.545px;
+    flex-shrink: 0;
+    padding-left: 43%;
+    position: relative;
+    z-index: 5;
+    padding-top: 4%;
+    padding-right: 6%;
+    transform: translate(-4%, -172%);
+}
+
 
 .entreeDroite__titre__texte {
     font-family: Bodoni Moda;
@@ -318,6 +331,19 @@
 
 }
 
+.entreeLivre__description--conteneur {
+    float: right;
+    width: 55%;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 8%;
+    position: relative;
+    z-index: 5;
+    padding-top: 5%;
+    transform: translate(1%, -69%);
+
+}
+
 .entreeDroite__description--texte {
     color: #000;
     font-family: Helvetica;
@@ -371,6 +397,18 @@
     position: relative;
     z-index: 8;
     transform: translate(-120%, -82%);
+
+}
+
+.entreeLivre__bouton--conteneur {
+    float: right;
+    width: 140px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 5%;
+    position: relative;
+    z-index: 8;
+    transform: translate(0%, -122%);
 
 }
 
