@@ -249,7 +249,7 @@
     z-index: 5;
     padding-top: 4%;
     padding-right: 6%;
-    transform: translate(-4%, -11%);
+    transform: translate(-4%, 0%);
 }
 
 .entreeBushi__titre {
@@ -310,7 +310,7 @@
     position: relative;
     z-index: 5;
     padding-top: 5%;
-    transform: translate(0%, -20%);
+    transform: translate(0%, -8%);
 
 }
 
@@ -380,7 +380,7 @@
     padding-right: 5%;
     position: relative;
     z-index: 8;
-    transform: translate(0%, -50%);
+    transform: translate(0%, -25%);
 
 }
 
