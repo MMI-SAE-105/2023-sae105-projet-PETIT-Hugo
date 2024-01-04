@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="noscroll:menuIsOpen">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keep The Illusion</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo--conteneur">
+            <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
+        </div>
+        <div class="header__titre">
+            <h1 class="header__titre--texte">Keep The Illusion</h1>
+        </div>
+
+        <div class="header__menu--conteneurBouton">
+            <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton" aria-controls="mainNav"
+                @click="menuIsOpen = !menuIsOpen" />
+        </div>
+
+        <div id="mainNav" x-show="menuIsOpen" x-transition.duration.200ms class="menu">
+            <div class="header">
+                <div class="header__logo--conteneur">
+                    <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
+                </div>
+                <div class="header__titre">
+                    <h1 class="header__titre--texte">Keep The Illusion</h1>
+                </div>
+
+                <div class="header__menu--conteneurBouton">
+                    <img src="/public/img/icone-croix.svg" alt="icone_menu--croix" class="header__menu--croix"
+                        aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" />
+                </div>
+            </div>
+
+            <hr class="menu--barre" />
+
+            <nav>
+                <ul>
+                    Articles
+                    <img src="/public/img/icone-cle.svg" alt="icone-clé" />
+                    <hr class="menu__titre--barre">
+                    <li><a href="article-citation.html">Une citation à retenir</a></li>
+                    <li><a href="article-film.html">Le film: The Grand Budapest Hotel</a></li>
+                    <li><a href="article-real.html">Le réalisateur : Wes Anderson</a></li>
+                    <li><a href="article-musique.html">Une musique associée</a></li>
+                    <li class="menu__item--bas"><a href="article-livre.html">Un livre similaire</a></li>
+                    Plus de contenus
+                    <img src="/public/img/icone-cle.svg" alt="icone-clé" />
+                    <hr class="menu__titre--barre">
+                    <li><a href="autreslivres.html">Autres livres</a></li>
+                    <li><a href="filmographie.html">Filmographie</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer class="footer" x-show="!menuIsOpen">
+        <div class="footer__navigation">
+            <ul>
+                <li class="footer__navigation--item"><a href="/fr/aPropos.html">À propos</li></a>
+                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Autres projets</li></a>
+                <li class="footer__navigation--item"><a href="/fr/contact.html">Contact</li></a>
+            </ul>
+        </div>
+    
+        <div class="footer__boutonLangue--conteneur">
+            <a href="/en/index.html">
+                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
+            </a>
+        </div>
+    
+        <div class="footer__contact">
+            <p class="footer__contact--texte">Hugo PETIT - Groupe C2</p>
+            <p class="footer__contact--texte">hugopetit6996@gmail.com</p>
+        </div>
+    
+        <div class="footer__mentions">
+            <p class="footer__mentions--texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                dépatement MMI Montbéliard</p>
+        </div>
+    
+        <div footer="footer__logoMMI">
+            <img src="/public/img/logo-mmi.svg" alt="logo-mmi" class="footer__logoMMI--image" />
+        </div>
+    
+    </footer>
+
+</body>
