@@ -409,3 +409,7 @@
 }
 
 .entreeDroite__bouton--image {}
+
+.espacement {
+    color: var(--rose-de-fond, #FFE0F1);
+}
