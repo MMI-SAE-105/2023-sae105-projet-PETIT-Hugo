@@ -26,6 +26,8 @@ nav>ul>img {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    float: right;
+    transform: translate(-60%, -13%);
 }
 
 nav>ul {
