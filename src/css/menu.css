@@ -37,6 +37,7 @@ nav>ul {
     font-style: normal;
     font-weight: 700;
     line-height: 140%;
+    
 }
 
 nav>ul>li {
@@ -53,4 +54,16 @@ nav>ul>li {
 nav>ul>li>a {
     text-decoration: none;
     color: #FFF;
+}
+
+
+
+.menu__titre--barre {
+    border: none;
+    width: 137px;
+    height: 4px;
+    flex-shrink: 0;
+    background: var(--Or, #DDD690);
+    transform: translate(-45%, -100%);
+    
 }
