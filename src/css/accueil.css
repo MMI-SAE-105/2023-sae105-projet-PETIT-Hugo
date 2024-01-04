@@ -231,6 +231,32 @@
     transform: translate(-35%, -40%);
 }
 
+.entreeReal__titre {
+    float: right;
+    width: 195.915px;
+    height: 18.545px;
+    flex-shrink: 0;
+    padding-left: 43%;
+    position: relative;
+    z-index: 5;
+    padding-top: 4%;
+    padding-right: 6%;
+    transform: translate(-4%, -38%);
+}
+
+.entreeBushi__titre {
+    float: right;
+    width: 195.915px;
+    height: 18.545px;
+    flex-shrink: 0;
+    padding-left: 43%;
+    position: relative;
+    z-index: 5;
+    padding-top: 4%;
+    padding-right: 6%;
+    transform: translate(-36%, -70%);
+}
+
 
 .entreeDroite__titre__texte {
     font-family: Bodoni Moda;
@@ -266,6 +292,19 @@
 
 }
 
+.entreeReal__description--conteneur {
+    float: right;
+    width: 55%;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 8%;
+    position: relative;
+    z-index: 5;
+    padding-top: 5%;
+    transform: translate(0%, -20%);
+
+}
+
 .entreeDroite__description--texte {
     color: #000;
     font-family: Helvetica;
@@ -295,6 +334,18 @@
     position: relative;
     z-index: 8;
     transform: translate(-120%, 8%);
+
+}
+
+.entreeReal__bouton--conteneur {
+    float: right;
+    width: 140px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 5%;
+    position: relative;
+    z-index: 8;
+    transform: translate(0%, -50%);
 
 }
 
