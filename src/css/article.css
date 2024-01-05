@@ -127,6 +127,11 @@ figcaption {
     text-decoration-line: underline;
 }
 
+.fin__arabesque--conteneur {
+    display: flex;
+    justify-content: center;
+}
+
 .fin__arabesque--bas-de-page {
     width: 189px;
     height: auto;
