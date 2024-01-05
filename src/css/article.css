@@ -1,0 +1,23 @@
+.arabesque__conteneur {
+    display: flex;
+    justify-content: center;
+}
+
+.titre__arabesque--haut {
+    width: 231px;
+    height: auto;
+    flex-shrink: 0;
+
+}
+
+.titre__arabesque--bas {
+    width: 231px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.fin__arabesque--bas-de-page {
+    width: 189px;
+    height: auto;
+    flex-shrink: 0;
+}
