@@ -74,6 +74,8 @@ h5 {
 }
 
 .citation__image-gustave--conteneur {
+    margin-right: 10px;
+    margin-left: 5px;
     float: right;
     shape-outside: url(/public/img/citation-gustave.webp);
     shape-margin: 20px;
