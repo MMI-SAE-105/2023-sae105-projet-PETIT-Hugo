@@ -63,54 +63,73 @@
 
 
     <main>
-        <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" />
-        <h4>Un livre similaire</h4>
-        <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" />
+        <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut" />
+        </div>
 
-        <p>Publié le 24/10/2023 par Hugo Petit - Lecture 5min</p>
+        <div class="article__titre--conteneur">
+            <h4 class="article__titre--texte">Un livre</h4>
+            <h4 class="article__titre--texte2">similaire</h4>
+        </div>
 
-        <p>Le style unique de Wes Anderson peut paraitre impossible à retranscrire dans un roman, le caractère déroutant par le
-        visuel ne peut pas être transmis à l’écrit. Pourtant un auteur, Mark Z. Danielewski a réussi à créer un ouvrage, « La
-        maison des feuilles » proposant une expérience similaire à celle que propose le visionnage de « The Grand Budapest Hotel
-        ».</p>
+        <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" class="titre__arabesque--bas" />
+        </div>
+
+        <div class="article__chapeau">
+            <p class="article__chapeau--date">Publié le 24/10/2023 par Hugo Petit - Lecture 5min</p>
+
+            <p class="article__texte--normal">Le style unique de Wes Anderson peut paraitre impossible à retranscrire dans un roman, le caractère déroutant par le
+            visuel ne peut pas être transmis à l’écrit. Pourtant un auteur, Mark Z. Danielewski a réussi à créer un ouvrage, « La
+            maison des feuilles » proposant une expérience similaire à celle que propose le visionnage de « The Grand Budapest Hotel
+            ».</p>
+        </div>
 
         <fig>
-            <img src="/public/img/livre-couverture.webp" alt="citation-gustave" />
+            <div class="article__image-couverture--conteneur">
+                <img src="/public/img/livre-couverture.webp" alt="livre-couverture" class="livre--image-couverture"/>
+            </div>
             <figcaption>Couverture du livre</figcaption>
         </fig>
 
         <h5>La forme déroutante</h5>
-        <p>Avec cet ouvrage, Mark Z. Danielewski défie les conventions en offrant une mise en page différente à chaque page du
+        <p class="article__texte--normal">Avec cet ouvrage, Mark Z. Danielewski défie les conventions en offrant une mise en page différente à chaque page du
         livre, parfois presque labyrintique, ce qui offre le même effet déroutant que l’on ressent lorsque l’on découvre le
         style de Wes Anderson. Ce seul élément promet déjà une lecture unique mais Danielewski ne s’est pas limité à ça.</p>
 
         <h5>Des histoire imbriquées</h5>
-        <p>A la manière de « The Grand Budapest Hotel », « La Maison des Feuilles » proposent plusieurs niveaux d’histoire,
+        <p class="article__texte--normal">A la manière de « The Grand Budapest Hotel », « La Maison des Feuilles » proposent plusieurs niveaux d’histoire,
         plusieurs récits à suivre, cependant, là où Wes Anderson propose 3 niveaux différents, Danielewski monte cette idée à un
         tout autre niveaux en proposant un total de 9 couches narratives.</p>
         
         <h5>Un dédale de l'horreur</h5>
-        <p>La lecture de « La Maison des Feuilles » nous introduit pleinement dans le labyrinthe qu’est la maison dans laquelle le
+        <p class="article__texte--normal">La lecture de « La Maison des Feuilles » nous introduit pleinement dans le labyrinthe qu’est la maison dans laquelle le
         roman prend place. Les différents niveaux de narration et points de vie qui précisent l’histoire que l’on vit créent un
         dédale duquel on ressort avec des souvenirs horrifiques mémorables.</p>
         
         <fig>
-            <img src="/public/img/livre-mise-en-page.webp" alt="citation-gustave" />
+            <div class="article__image-normale--conteneur">
+                <img src="/public/img/livre-mise-en-page.webp" alt="citation-gustave" class="article__image--normale"/>
+            </div>
             <figcaption>Exemple de mise en page</figcaption>
         </fig>
 
-        <p>
+        <p class="article__texte--normal">
             En conclusion, « La Maison des Feuilles » propose une expérience similaire à celle de « The Grand Budapest Hotel » en
             poussant encore plus l’aspect labyrinthique et en y ajoutant une ambiance horrifique. Ce livre offre la lecture la plus
             singulière que vous puissiez vivre, c’est une œuvre qui fascine depuis plus de 20 ans et qui continue de faire grandir
             son public. Il faut cependant être conscient avant d’entamer la lecture, qu’elle peut être déroutante voire dérangeante.
         </p>
 
-        <a href="index.html">
-            Page d’accueil        
-        </a>
+        <div class="article__fin__bouton-suivant">
+            <a href="index.html" class="article__fin__bouton-suivant--texte">
+                Page d'accueil
+            </a>
+        </div>
         
-        <img href="/public/img/arabesque-bas-de-page.svg" alt="arabesque--bas-de-page" />
+        <div class="fin__arabesque--conteneur">
+            <img src="/public/img/arabesque-bas-de-page.svg" class="fin__arabesque--bas-de-page">
+        </div>    
     </main>
 
 
