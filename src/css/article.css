@@ -16,6 +16,7 @@ h5 {
     font-weight: 700;
     line-height: 140%;
     width: 85%;
+    padding-left: 10px;
 }
 
 
@@ -71,6 +72,17 @@ h5 {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.citation__image-gustave--conteneur {
+    float: right;
+    shape-outside: url(/public/img/citation-gustave.webp);
+    shape-margin: 20px;
+}
+
+
+
+
+
 .fin__arabesque--bas-de-page {
     width: 189px;
     height: auto;
