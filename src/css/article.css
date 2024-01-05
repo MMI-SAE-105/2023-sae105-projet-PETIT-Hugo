@@ -163,3 +163,20 @@ figcaption {
     justify-content: center;
     margin-top: 20px;
 }
+
+.musique__image-bushi--conteneur{
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 5px;
+    float: right;
+    shape-outside: url(/public/img/musique-cover.webp);
+    shape-margin: 20px;
+
+
+}
+
+
+.musique__image-bushi {
+
+
+}
