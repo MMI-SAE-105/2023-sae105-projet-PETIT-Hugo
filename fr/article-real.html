@@ -63,10 +63,18 @@
 
 
     <main>
-        <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" />
-        <h4>Le réalisateur, Wes Anderson</h4>
-        <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" />
-
+        <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut" />
+        </div>
+        
+        <div class="article__titre--conteneur">
+            <h4 class="article__titre--texte">Le réalisateur,</h4>
+            <h4 class="article__titre--texte2">Wes Anderson</h4>
+        </div>
+        
+        <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" class="titre__arabesque--bas" />
+        </div>
         <p>Publié le 24/10/2023 par Hugo Petit - Lecture 5min</p>
         <p>Wes Anderson est un réalisateur reconnu au style inimitable, il a imposé au fil de sa filmographie mêlant absurde et
         émotion sous forme de visuels maîtrisés de bout en bout. Il est aujourd’hui considéré comme un des meilleurs
