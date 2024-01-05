@@ -1,3 +1,23 @@
+h4 {
+    color: var(--Violet-titres, #510056);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+h5 {
+    color: var(--Violet-accentuation, #784283);
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+
 .arabesque__conteneur {
     display: flex;
     justify-content: center;
