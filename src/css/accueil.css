@@ -86,6 +86,7 @@
 }
 
 .entreeGauche--fond {
+    border: none;
     background-color: var(--rose-accentuation, #FFA8CB);
     width: 98%;
     height: 110px;
@@ -169,9 +170,6 @@
     
 }
 
-.entreeGauche__bouton--image {
-
-}
 
 
 
@@ -188,6 +186,7 @@
 }
 
 .entreeDroite--fond {
+    border: none;
     background-color: var(--rose-accentuation, #FFA8CB);
     width: 98%;
     height: 110px;
@@ -408,7 +407,6 @@
 
 }
 
-.entreeDroite__bouton--image {}
 
 .espacement {
     color: var(--rose-de-fond, #FFE0F1);
