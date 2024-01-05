@@ -139,3 +139,14 @@ figcaption {
     flex-shrink: 0;
 }
 
+.film__image-affiche--conteneur {
+    display: flex;
+    justify-content: center;
+}
+
+.film__image--affiche {
+    border: 5px solid var(--Or, #DDD690);
+    width: 60%;
+    height: auto;
+}
+
