@@ -156,3 +156,10 @@ figcaption {
     width: 60%;
     height: auto;
 }
+
+.musique__bouton_spotify--conteneur {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
