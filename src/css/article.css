@@ -17,6 +17,7 @@ h5 {
     line-height: 140%;
     width: 85%;
     padding-left: 10px;
+    margin-bottom: 0px;
 }
 
 figcaption {
@@ -81,6 +82,7 @@ figcaption {
     line-height: 140%;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 4px;
 }
 
 
