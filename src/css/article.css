@@ -83,7 +83,14 @@ figcaption {
     padding-right: 10px;
 }
 
+.citation--extrait {
+    width: 96%;
+    padding-left: 2%;
+    
+}
+
 .citation__image-gustave--conteneur {
+    justify-content: center;
     margin-right: 10px;
     margin-left: 5px;
     float: right;
@@ -92,7 +99,17 @@ figcaption {
 }
 
 
+.article__image-normale--conteneur {
+    flex-shrink: 0;
+    justify-content: center;
 
+}
+
+.article__image--normale {
+    width: 96%;
+    padding-left: 2%;
+
+}
 
 
 .fin__arabesque--bas-de-page {
