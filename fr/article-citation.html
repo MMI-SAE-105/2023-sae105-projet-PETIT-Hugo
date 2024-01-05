@@ -63,7 +63,7 @@
 
 
     <main>
-        <div class="arabesque__haut--conteneur">
+        <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
             <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut"/>
         </div>
 
@@ -71,7 +71,7 @@
             <h4 class="citation__titre--texte">Une citation à retenir</h4>
         </div>
 
-        <div class="arabesque__bas--conteneur">
+        <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
             <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" class="titre__arabesque--bas"/>
         </div>
 
@@ -83,12 +83,14 @@
             devenu le titre du site : <q>Il a su entretenir l’illusion avec une grâce merveilleuse</q>.</p>
         </div>
 
-        <fig class="citation--extrait_conteneur">
-            <video controls class="citation--extrait">
-                <source src="/public/video/extraitReplique.mp4">
-            </video>
-            <figcaption>Extrait du moment de la réplique dans le film (en englais)</figcaption>
-        </fig>
+        <div x-show="!menuIsOpen">
+            <fig class="citation--extrait_conteneur">
+                <video controls class="citation--extrait">
+                    <source src="/public/video/extraitReplique.mp4">
+                </video>
+                <figcaption>Extrait du moment de la réplique dans le film (en englais)</figcaption>
+            </fig>
+        </div>
 
         <h5>L’illusionniste de l’Hôtel : Monsieur Gustave</h5>
         
