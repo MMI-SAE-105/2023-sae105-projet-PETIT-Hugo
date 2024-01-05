@@ -83,6 +83,7 @@ figcaption {
     padding-right: 10px;
 }
 
+
 .citation--extrait {
     width: 96%;
     padding-left: 2%;
@@ -137,3 +138,4 @@ figcaption {
     height: auto;
     flex-shrink: 0;
 }
+
