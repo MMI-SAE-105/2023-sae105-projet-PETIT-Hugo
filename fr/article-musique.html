@@ -61,24 +61,34 @@
         </div>
     </header>
     <main>
-        <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" />
-        <h4>Une musique associée</h4>
-        <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" />
-       
-        <p>Publié le 24/10/2023 par Hugo Petit - Lecture 4min</p>
+        <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut" />
+        </div>
+        
+        <div class="article__titre--conteneur">
+            <h4 class="article__titre--texte">Une musique</h4>
+            <h4 class="article__titre--texte2">associée</h4>
+        </div>
+        
+        <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" class="titre__arabesque--bas" />
+        </div>
 
-        <p>Wes Anderson est un réalisateur qui fait parler et qui inspire, son univers colle parfaitement au hip-hop, milieu dans
-        lequel les artistes n’hésitent pas à faire des références aux œuvres qui les influencent, les références au réalisateur
-        est un point commun aux artistes les plus inspirés, dans les clips (Varnish La Piscine ou Tyler, The Creator) comme dans
-        les textes, notamment Bu$hi, le rappeur français, dans sa musique « Parachute ».</p>
-   
+        <div class="article__chapeau">
+            <p class="article__chapeau--date">Publié le 24/10/2023 par Hugo Petit - Lecture 4min</p>
+
+            <p class="article__texte--normal">Wes Anderson est un réalisateur qui fait parler et qui inspire, son univers colle parfaitement au hip-hop, milieu dans
+            lequel les artistes n’hésitent pas à faire des références aux œuvres qui les influencent, les références au réalisateur
+            est un point commun aux artistes les plus inspirés, dans les clips (Varnish La Piscine ou Tyler, The Creator) comme dans
+            les textes, notamment Bu$hi, le rappeur français, dans sa musique « Parachute ».</p>
+        </div>
         <fig>
             <img src="/public/img/musique-citation.webp" alt="musique-citation" />
             <figcaption>Passage de la citation de Wes Anderson par Bu$hi</figcaption>
         </fig>
 
         <h5>Bu$hi, reconnu à l’internationnal</h5>
-        <p>Bu$hi, étonne la scène hip-hop depuis des années maintenant et il ne cesse de surprendre les artistes comme les
+        <p class="article__texte--normal">Bu$hi, étonne la scène hip-hop depuis des années maintenant et il ne cesse de surprendre les artistes comme les
         auditeurs à chaque nouvelle apparition : ses choix de production complexes qui nécessitent une maitrise de son art
         profonde et ses connections à l’international font toujours parler de lui. On a pu le retrouver avec des grands artistes
         de la scène américaine comme Quavo et Don Toliver ou la plateforme de « On The Radar ».</p>
@@ -89,7 +99,7 @@
         </fig>
 
         <h5>La ligne “peut-être qu’on a percé”</h5>
-        <p>Dans sa musique « Parachute », Bu$hi cite le réalisateur : « peut-être qu’on a percé on dirait que je suis dans un film
+        <p >Dans sa musique « Parachute », Bu$hi cite le réalisateur : « peut-être qu’on a percé on dirait que je suis dans un film
         de Wes Anderson ».</p>
         <p>La musique est tirée de son projet « Bushi Tape 2 », sorti juste après son
         ascension, cette ligne exprime donc la découverte de sa nouvelle vie en tant</p>
