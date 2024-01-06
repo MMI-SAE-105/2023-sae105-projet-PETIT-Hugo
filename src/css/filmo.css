@@ -1,6 +1,7 @@
 .filmo__affiche--conteneur {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .filmo__affiche--image {
