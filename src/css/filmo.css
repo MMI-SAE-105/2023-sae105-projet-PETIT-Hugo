@@ -1,0 +1,11 @@
+.filmo__affiche--conteneur {
+    display: flex;
+    justify-content: center;
+}
+
+.filmo__affiche--image {
+    border: 5px solid var(--Or, #DDD690);
+    width: 75%;
+    height: auto;
+}
+
