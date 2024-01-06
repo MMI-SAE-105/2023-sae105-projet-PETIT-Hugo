@@ -176,7 +176,29 @@ figcaption {
 }
 
 
-.musique__image-bushi {
+.article__image-couverture--conteneur {
+    display: flex;
+    justify-content: center;
+
+}
+
+.livre__image-couverture {
+    border: 5px solid var(--Or, #DDD690);
+    width: 60%;
+    height: auto;
+
+}
+
+.livre__image-page--conteneur {
+    display: flex;
+    justify-content: center;
+
+}
+
+.livre__image--page {
+    width: 94%;
+    height: auto;
+    border: 5px solid var(--Or, #DDD690);
 
 
 }
