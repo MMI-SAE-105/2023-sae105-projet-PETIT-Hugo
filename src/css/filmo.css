@@ -9,3 +9,14 @@
     height: auto;
 }
 
+.filmo__affiche--titre {
+    color: var(--Violet-titres, #510056);
+    text-align: center;
+    font-family: Bodoni Moda;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 5px;
+}
+
