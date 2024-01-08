@@ -7,6 +7,7 @@
         height: auto;
         border-radius: 20px;
         border: 4px solid #5A2E4E;
+        margin-top: 10px;
 
     }
 
@@ -81,4 +82,16 @@
 
     .carrousel_btn-apres {
         right: 0;
+    }
+
+    .carrousel_texte {
+        color: var(--Violet-titres, #510056);
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        margin-bottom: 10px;
+        
     }
