@@ -76,7 +76,8 @@
         <p class="texte_centre">Vous trouverez ici les projets d’autres MMI ayant monté leur site sur le même thème.
         Explorez-les et découvrez d’autres univers cinématographiques passionnants</p>
 
-       
+        <p class="espace"></p>
+        <p class="texte_centre">Cliquez sur les images pour accéder aux sites ↓</p>
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
             <div class="carrousel_parent-ecrans" x-ref="parent"
                 @scroll.debounce.250ms.passive="hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
