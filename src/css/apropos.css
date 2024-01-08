@@ -10,3 +10,15 @@
         margin-top: 4px;
         text-align: center;
 }
+
+.fin__arabesque--separation {
+    display: flex;
+    justify-content: center;
+}
+
+.aPropos__arabesque--separation {
+    width: 189px;
+    height: auto;
+    flex-shrink: 0;
+    transform: rotate(180deg);
+}
