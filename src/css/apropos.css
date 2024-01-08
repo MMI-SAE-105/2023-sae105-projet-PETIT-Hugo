@@ -9,6 +9,7 @@
         padding-right: 10px;
         margin-top: 4px;
         text-align: center;
+        margin-top: 10px;
 }
 
 .fin__arabesque--separation {
@@ -21,4 +22,15 @@
     height: auto;
     flex-shrink: 0;
     transform: rotate(180deg);
+}
+
+
+.aPropos__avatar--image {
+    border-radius: 50%;
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+    border: 3px solid var(--Violet-titres, #510056);
+    margin-left: 28%;
+
 }
