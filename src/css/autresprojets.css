@@ -36,26 +36,6 @@
         margin: 0;
     }
 
-    .caroussel_liste-liens {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        gap: 1rem;
-
-    }
-
-    .caroussel_lien {
-        display: inline-block;
-        padding: 10px;
-        margin: 10px;
-        border: 1px solid #000;
-        border-radius: 5px;
-        text-decoration: none;
-        color: #000;
-    }
-
     .carrousel {
         position: relative;
     }
