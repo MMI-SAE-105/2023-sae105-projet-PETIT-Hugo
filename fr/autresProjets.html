@@ -78,32 +78,45 @@
 
        
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
-            <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedent"
-                @click="parent = $refs.parent; parent.scrollLeft -= parent.clientWidth">
-                < </button>
-                    <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"
-                        @click="parent = $refs.parent; parent.scrollLeft += parent.clientWidth">></button>
-                    <div class="carrousel_parent-ecrans" x-ref="parent"
-                        @scroll.debounce.250ms.passive="hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
-                        <div id="ecran-1" class="carrousel_ecran">
-                            <figure>
-                                <img src="/public/img/boyznthehood.webp" alt="image ecran 1" class="carrousel__img">
-                                <figcaption class="carrousel_texte">Raw Footage - <strong>Axel SALTINI</strong></figcaption>
-                            </figure>
-                        </div>
-                        <div id="ecran-2" class="carrousel_ecran">
-                            <figure>
-                                <img src="https://picsum.photos/seed/2/500/300" alt="image ecran 2" class="carrousel__img">
-                                <figcaption>Ecran 2</figcaption>
-                            </figure>
-                        </div>
-                        <div id="ecran-3" class="carrousel_ecran">
-                            <figure>
-                                <img src="https://picsum.photos/seed/3/500/300" alt="image ecran 3" class="carrousel__img">
-                                <figcaption>Ecran 3</figcaption>
-                            </figure>
-                        </div>
-                    </div>
+            <div class="carrousel_parent-ecrans" x-ref="parent"
+                @scroll.debounce.250ms.passive="hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
+                <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/boyznthehood.webp" alt="image ecran 1" class="carrousel__img">
+                        <figcaption class="carrousel_texte">Raw Footage - <strong>Axel SALTINI</strong></figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/yourname.webp" alt="image ecran 2" class="carrousel__img">
+                        <figcaption class="carrousel_texte">Donne moi ton nom - <strong>Naîl DEZZAZ</strong></figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/chihiro.webp" alt="image ecran 3" class="carrousel__img">
+                        <figcaption class="carrousel_texte">Spirits - <strong>Viktor GHIRARDELLI</strong></figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/kiki-jiji_1.webp" alt="image ecran 4" class="carrousel__img">
+                        <figcaption class="carrousel_texte">Kiki's Journal - <strong>Blandine NAHORNY</strong></figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-5" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/interstellar.webp" alt="image ecran 5" class="carrousel__img">
+                        <figcaption class="carrousel_texte">Interstellar - <strong>Vincent BARRÉ</strong></figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-6" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/hungergames.webp" alt="image ecran 6" class="carrousel__img">
+                        <figcaption class="carrousel_texte">HungerFuns - <strong>Selma HAOUAL</strong></figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
 
     </main>

@@ -1,10 +1,8 @@
 
 
     .carrousel__img {
-        /* image responsive, largeur maxi */
         max-width: 96%;
-        /* hauteur "auto" */
-        height: auto;
+        height: 60%;
         border-radius: 20px;
         border: 4px solid #5A2E4E;
         margin-top: 10px;
@@ -12,9 +10,7 @@
     }
 
     .carrousel_parent-ecrans {
-        /* aligne horizontalement les enfants */
         display: flex;
-        /* largeur du parent */
         width: 96%;
         overflow-x: scroll;
         scroll-behavior: smooth;
@@ -24,15 +20,12 @@
     }
 
     .carrousel_ecran {
-        /* largeur du parent pour chaque enfant */
         flex: none;
-        /* permet de garder toute la largeur du parent */
         width: 96%;
         scroll-snap-align: start
     }
 
     .carrousel_ecran figure {
-        /* enlève les marges par défaut */
         margin: 0;
     }
 
@@ -43,9 +36,7 @@
     .carrousel_btn {
         position: absolute;
         top: calc(100vw / 16 * 9 / 2 + 1rem);
-        /* centre verticalement ~50% vertical */
         transform: translateY(-50%);
-        /* methode du point mort */
         width: 2rem;
         height: 2rem;
         background: rgba(0, 0, 0, 0.5);
@@ -56,13 +47,7 @@
         color: #fff;
     }
 
-    .carrousel_btn-avant {
-        left: 0;
-    }
 
-    .carrousel_btn-apres {
-        right: 0;
-    }
 
     .carrousel_texte {
         color: var(--Violet-titres, #510056);
