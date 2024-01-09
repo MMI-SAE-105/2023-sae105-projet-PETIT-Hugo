@@ -30,3 +30,15 @@
     padding-left: 155px;
     padding-top: 40px;
 }
+
+.presentation__livre--bouton {
+    width: 136px;
+    height: 39px;
+    padding-left: 180px;
+    
+}
+
+.presentation__livre--bouton--image {
+    transform: translate(0px, 10px);
+
+}
