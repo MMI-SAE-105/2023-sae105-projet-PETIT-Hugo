@@ -10,8 +10,23 @@
 }
 
 .rectangle__frise {
+    z-index: 4;
+    position: absolute;
+    margin: 20px;
     border: none;
     width: 334px;
     height: 2075px;
     background-color: var(--Rouge-header, #9A0606);
+}
+
+.presentation__livre {
+    z-index: 8;
+    position: relative;
+}
+
+.presentation__livre--image--conteneur {
+    width: 179px;
+    height: 289px;
+    padding-left: 155px;
+    padding-top: 40px;
 }
