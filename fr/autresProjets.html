@@ -78,7 +78,7 @@
 
         <p class="espace"></p>
         <p class="texte_centre">Cliquez sur les images pour accéder aux sites ↓</p>
-        <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
+        <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}" x-show="!menuIsOpen">
             <div class="carrousel_parent-ecrans" x-ref="parent"
                 @scroll.debounce.250ms.passive="hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
                 <div id="ecran-1" class="carrousel_ecran">
