@@ -42,3 +42,12 @@
     transform: translate(0px, 10px);
 
 }
+
+.presentation__rectangle {
+    border: none;
+    width: 54px;
+    height: 17px;
+    background-color: var(--rose-de-fond, #FFE0F1);
+    transform: translate(-141px, -260px);
+
+}
