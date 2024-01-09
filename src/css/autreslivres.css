@@ -15,7 +15,7 @@
     margin: 20px;
     border: none;
     width: 334px;
-    height: 2075px;
+    height: 2375px;
     background-color: var(--Rouge-header, #9A0606);
 }
 
@@ -45,9 +45,16 @@
 
 .presentation__rectangle {
     border: none;
-    width: 54px;
+    width: 44px;
     height: 17px;
     background-color: var(--rose-de-fond, #FFE0F1);
-    transform: translate(-141px, -260px);
+    transform: translate(-151px, -260px);
+}
 
+.presentation__date {
+    font-family: Helvetica;
+    color: var(--rose-de-fond, #FFE0F1);
+    font-size: 21px;
+    font-weight: 600;
+    transform: translate(65px, -302px);
 }
