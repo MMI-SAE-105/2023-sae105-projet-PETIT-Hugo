@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : PETIT
+- PRÉNOM : HUGO
+- URL du site : http://keeptheillusion.petit-hugommi1.fr/
+- URL FIGMA : https://www.figma.com/file/Y9o6YWSP5H8sbK5qJNYsg7/Maquettes-projet-individuel-%E2%80%94-Hugo-PETIT?type=design&node-id=2205%3A1032&mode=design&t=3p1I0FgWSKnwiDKv-1
 
 # Structure de départ pour le projet individuel.
 
