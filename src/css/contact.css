@@ -21,3 +21,8 @@
 .contact__espacement {
     padding-top: 480px;
 }
+
+.contact__case {
+    border: 3px solid rgba(221, 214, 144, 0.85);    
+    background: #CDBFAE;
+}
