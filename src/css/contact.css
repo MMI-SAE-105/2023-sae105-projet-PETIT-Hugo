@@ -9,6 +9,7 @@
 .contact__cadre--conteneur {
     position: absolute;
     z-index: 3;
+    padding-left: 20px;
     
 }
 
