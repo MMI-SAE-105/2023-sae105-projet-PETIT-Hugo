@@ -23,6 +23,11 @@ h5 {
     margin-bottom: 0px;
 }
 
+a {
+    color: var(--Violet-accentuation, #784283);
+    text-decoration: none;
+}
+
 figcaption {
     color: #857A7A;
     text-align: center;
