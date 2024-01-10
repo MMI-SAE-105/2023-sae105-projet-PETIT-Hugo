@@ -11,9 +11,9 @@
 
 <body>
     <header class="header">
-        <a href="index.html" class="header__logo--conteneur">
+        <div class="header__logo--conteneur">
             <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
-        </a>
+        </div>
         <div class="header__titre">
             <h1 class="header__titre--texte">Keep The Illusion</h1>
         </div>
@@ -45,21 +45,22 @@
                     Articles
                     <img src="/public/img/icone-cle.svg" alt="icone-clé" />
                     <hr class="menu__titre--barre">
-                    <li><a href="article-citation.html">Une citation à retenir</a></li>
-                    <li><a href="article-film.html">Le film: The Grand Budapest Hotel</a></li>
-                    <li><a href="article-real.html">Le réalisateur : Wes Anderson</a></li>
-                    <li><a href="article-musique.html">Une musique associée</a></li>
-                    <li class="menu__item--bas"><a href="article-livre.html">Un livre similaire</a></li>
-                    Plus de contenus
+                    <li><a href="article-citation.html">A quote to remember</a></li>
+                    <li><a href="article-film.html">The movie : The Grand Budapest Hotel</a></li>
+                    <li><a href="article-real.html">The director : Wes Anderson</a></li>
+                    <li><a href="article-musique.html">A connected song</a></li>
+                    <li class="menu__item--bas"><a href="article-livre.html">A similar book</a></li>
+                    More content
                     <img src="/public/img/icone-cle.svg" alt="icone-clé" />
                     <hr class="menu__titre--barre">
-                    <li><a href="autreslivres.html">Autres livres</a></li>
-                    <li><a href="filmographie.html">Filmographie</a></li>
+                    <li><a href="autreslivres.html">Other books</a></li>
+                    <li><a href="filmographie.html">Filmography</a></li>
                 </ul>
             </nav>
 
         </div>
     </header>
+
     <main class="contact__main">
         <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
             <img src="/public/img/ornement-haut-contact.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut" />
@@ -111,18 +112,19 @@
 
 
     </main>
+
     <footer class="footer" x-show="!menuIsOpen">
         <div class="footer__navigation">
             <ul>
-                <li class="footer__navigation--item"><a href="/fr/aPropos.html">À propos</li></a>
-                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Autres projets</li></a>
+                <li class="footer__navigation--item"><a href="/fr/aPropos.html">About</li></a>
+                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Other projects</li></a>
                 <li class="footer__navigation--item"><a href="/fr/contact.html">Contact</li></a>
             </ul>
         </div>
     
         <div class="footer__boutonLangue--conteneur">
-            <a href="/en/index.html">
-                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
+            <a href="/fr/autresProjets.html">
+                <img src="/public/img/bouton-eng.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
             </a>
         </div>
     
@@ -132,8 +134,8 @@
         </div>
     
         <div class="footer__mentions">
-            <p class="footer__mentions--texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
-                dépatement MMI Montbéliard</p>
+            <p class="footer__mentions--texte">This site is a project carried out as part of an educational exercise at the
+            Montbéliard MMI department.</p>
         </div>
     
         <div footer="footer__logoMMI">
