@@ -16,6 +16,8 @@
 .contact {
     position: relative;
     z-index: 5;
+    top: 150px;
+    left: 39px;
 }
 
 .contact__espacement {
@@ -25,6 +27,8 @@
 .contact__case {
     border: 3px solid rgba(221, 214, 144, 0.85);    
     background: #CDBFAE;
+    width: 286px;
+    flex-shrink: 0;
 }
 
 .contact__label {
@@ -34,4 +38,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+.contact__case--petite {
+    border: 3px solid rgba(221, 214, 144, 0.85);
+    background: #CDBFAE;
+    width: 286px;
+    height: 33px;
+    flex-shrink: 0;
 }
