@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="noscroll:menuIsOpen">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keep The Illusion</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo--conteneur">
+            <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
+        </a>
+        <div class="header__titre">
+            <h1 class="header__titre--texte">Keep The Illusion</h1>
+        </div>
+
+        <div class="header__menu--conteneurBouton">
+            <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton" aria-controls="mainNav"
+                @click="menuIsOpen = !menuIsOpen" />
+        </div>
+
+        <div id="mainNav" x-show="menuIsOpen" x-transition.duration.200ms class="menu">
+            <div class="header">
+                <div class="header__logo--conteneur">
+                    <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
+                </div>
+                <div class="header__titre">
+                    <h1 class="header__titre--texte">Keep The Illusion</h1>
+                </div>
+
+                <div class="header__menu--conteneurBouton">
+                    <img src="/public/img/icone-croix.svg" alt="icone_menu--croix" class="header__menu--croix"
+                        aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" />
+                </div>
+            </div>
+
+            <hr class="menu--barre" />
+
+            <nav>
+                <ul>
+                    Articles
+                    <img src="/public/img/icone-cle.svg" alt="icone-clé" />
+                    <hr class="menu__titre--barre">
+                    <li><a href="article-citation.html">Une citation à retenir</a></li>
+                    <li><a href="article-film.html">Le film: The Grand Budapest Hotel</a></li>
+                    <li><a href="article-real.html">Le réalisateur : Wes Anderson</a></li>
+                    <li><a href="article-musique.html">Une musique associée</a></li>
+                    <li class="menu__item--bas"><a href="article-livre.html">Un livre similaire</a></li>
+                    Plus de contenus
+                    <img src="/public/img/icone-cle.svg" alt="icone-clé" />
+                    <hr class="menu__titre--barre">
+                    <li><a href="autreslivres.html">Autres livres</a></li>
+                    <li><a href="filmographie.html">Filmographie</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut" />
+        </div>
+        
+        <div class="filmo__titre--conteneur">
+            <h4 class="filmo__titre--texte">Filmographie de</h4>
+            <h4 class="filmo__titre--texte2">Wes Anderson</h4>
+        </div>
+        
+        <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" class="titre__arabesque--bas" />
+        </div>
+
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-bottle-rocket.webp" alt="filmo-bottle-rocket" class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">Bottle Rocket (1996)</figcaption>
+            </fig>
+
+            <p class="filmo__description">Tout premier long métrage de Wes Anderson en tant que réalisateur, le film est une comédie racontant l’histoire de 3
+            texans tentant de devenir de vrais criminels</p>
+
+            <hr class="filmo__barre">
+
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-rushmore.webp" alt="filmo-rushmore"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">Rushmore (1998)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Dans ce film, on suit Max Fisher, élève de la Rushmore Academy, qui profite de l’établissement scolaire pour exprimer sa
+            créativité et ses plans bien plus que pour étudier</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-famille-tenenbaum.webp" alt="filmo-tenenbaum" class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">La Famille Tenenbraum (2001)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">20 ans près un divorce qui a séparé toute la famille, le père Tenenbaum tente une dernière fois de rassembler ses
+            enfants en simulant une grave maladie</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-vie-aquatique.webp" alt="filmo-vie-aquatique"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">La vie aquatique (2003)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Conscient que cette expédition est probablement la dernière, Steve Z veut marquer son nom dans l’histoire et embarque
+            son équipage à travers tous les dangers.</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-darjeeling.webp" alt="filmo-darjeeling"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">A bord du Darjeeling Limited (2007)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Trois frères qui viennent à peine de se rassembler après des années, se retoruvent perdus dans un désert avec onzes
+            valises, une imprimante, une machine à plastifier et des comptes à régler avec la vie...</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-fantastic-mrfox.webp" alt="filmo-fantastic-mrfox" class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">Fantastic Mr.Fox (2008)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Wes Anderson s’essaye aux films d’animation et nous propose l’incroyable histoire de Mr.Fox et sa famille face à des
+            fermiers odieux.</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-grand-budapest-hotel.webp" alt="filmo-grand-budapest-hotel"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">The Grand Budapest Hotel (2013)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Mr Gustave et son lobby boy Zero Mustafa se retrouvent dans les histoires d’héritages familiaux d’une des clientes les
+            plus prestigieuses après avoir reçu de sa part un tableau innestimable.</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-ile-aux-chiens.webp" alt="filmo-ils-aux-chiens"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">L’île aux chiens (2018)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Dans un Japon dystopique ravagé par une grippe canine, Atari, 12 ans, se rend l’Ile aux Chiens accompagné de 5 canidés,
+            pour retrouver son compagnon, mis en isolement là-bas.</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-french-dispatch.webp" alt="filmo-french-dispatch"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">The French Dispatch (2021)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">The French Dispatch est un magazine américain, ce film fait office de mise en scène du recueil d’histoire du dernier
+            numéro.</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+        <div>
+            <fig>
+                <div class="filmo__affiche--conteneur">
+                    <img src="/public/img/filmographie-asteroid-city.webp" alt="filmo-asteroid-city"
+                        class="filmo__affiche--image" />
+                </div>
+                <figcaption class="filmo__affiche--titre">Asteroid City (2023)</figcaption>
+            </fig>
+        
+            <p class="filmo__description">Asteroid city est une minuscule ville en plein désert, connue pour son immense cratère provoqué par une météorite et
+            depuis laquelle on peut apercevoir au loin des champignons atomiques provoqués par des essais nucléaires.</p>
+        
+            <hr class="filmo__barre">
+        
+        </div>
+
+
+
+        
+
+        <div class="fin__arabesque--conteneur">
+            <img src="/public/img/arabesque-bas-de-page.svg" class="fin__arabesque--bas-de-page">
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer" x-show="!menuIsOpen">
+        <div class="footer__navigation">
+            <ul>
+                <li class="footer__navigation--item"><a href="/fr/aPropos.html">À propos</li></a>
+                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Autres projets</li></a>
+                <li class="footer__navigation--item"><a href="/fr/contact.html">Contact</li></a>
+            </ul>
+        </div>
+    
+        <div class="footer__boutonLangue--conteneur">
+            <a href="/en/index.html">
+                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
+            </a>
+        </div>
+    
+        <div class="footer__contact">
+            <p class="footer__contact--texte">Hugo PETIT - Groupe C2</p>
+            <p class="footer__contact--texte">hugopetit6996@gmail.com</p>
+        </div>
+    
+        <div class="footer__mentions">
+            <p class="footer__mentions--texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                dépatement MMI Montbéliard</p>
+        </div>
+    
+        <div footer="footer__logoMMI">
+            <img src="/public/img/logo-mmi.svg" alt="logo-mmi" class="footer__logoMMI--image" />
+        </div>
+    
+    </footer>
+    
+</body>

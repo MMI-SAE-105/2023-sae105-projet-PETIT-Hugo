@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="noscroll:menuIsOpen">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keep The Illusion</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo--conteneur">
+            <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
+        </a>
+        <div class="header__titre">
+            <h1 class="header__titre--texte">Keep The Illusion</h1>
+        </div>
+
+        <div class="header__menu--conteneurBouton">
+            <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton" aria-controls="mainNav"
+                @click="menuIsOpen = !menuIsOpen" />
+        </div>
+
+        <div id="mainNav" x-show="menuIsOpen" x-transition.duration.200ms class="menu">
+            <div class="header">
+                <div class="header__logo--conteneur">
+                    <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
+                </div>
+                <div class="header__titre">
+                    <h1 class="header__titre--texte">Keep The Illusion</h1>
+                </div>
+
+                <div class="header__menu--conteneurBouton">
+                    <img src="/public/img/icone-croix.svg" alt="icone_menu--croix" class="header__menu--croix"
+                        aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" />
+                </div>
+            </div>
+
+            <hr class="menu--barre" />
+
+            <nav>
+                <ul>
+                    Articles
+                    <img src="/public/img/icone-cle.svg" alt="icone-clé" />
+                    <hr class="menu__titre--barre">
+                    <li><a href="article-citation.html">Une citation à retenir</a></li>
+                    <li><a href="article-film.html">Le film: The Grand Budapest Hotel</a></li>
+                    <li><a href="article-real.html">Le réalisateur : Wes Anderson</a></li>
+                    <li><a href="article-musique.html">Une musique associée</a></li>
+                    <li class="menu__item--bas"><a href="article-livre.html">Un livre similaire</a></li>
+                    Plus de contenus
+                    <img src="/public/img/icone-cle.svg" alt="icone-clé" />
+                    <hr class="menu__titre--barre">
+                    <li><a href="autreslivres.html">Autres livres</a></li>
+                    <li><a href="filmographie.html">Filmographie</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="arabesque__haut--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-haut.svg" alt="arabesque-titre-haut" class="titre__arabesque--haut" />
+        </div>
+        
+        <div class="article__titre--conteneur">
+            <h4 class="article__titre--texte">Une musique</h4>
+            <h4 class="article__titre--texte2">associée</h4>
+        </div>
+        
+        <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
+            <img src="/public/img/arabesque-titre-bas.svg" alt="arabesque-titre-bas" class="titre__arabesque--bas" />
+        </div>
+
+        <div class="article__chapeau">
+            <p class="article__chapeau--date">Publié le 24/10/2023 par Hugo Petit - Lecture 4min</p>
+
+            <p class="article__texte--normal">Wes Anderson est un réalisateur qui fait parler et qui inspire, son univers colle parfaitement au hip-hop, milieu dans
+            lequel les artistes n’hésitent pas à faire des références aux œuvres qui les influencent, les références au réalisateur
+            est un point commun aux artistes les plus inspirés, dans les clips (Varnish La Piscine ou Tyler, The Creator) comme dans
+            les textes, notamment Bu$hi, le rappeur français, dans sa musique « Parachute ».</p>
+        </div>
+        <fig>
+            <div class="article__image-normale--conteneur">
+                <img src="/public/img/musique-citation.webp" alt="musique-citation" class="article__image--normale"/>
+            </div>
+            <figcaption>Passage de la citation de Wes Anderson par Bu$hi</figcaption>
+        </fig>
+        
+        <h5>Bu$hi, reconnu à l’internationnal</h5>
+        <p class="article__texte--normal">Bu$hi, étonne la scène hip-hop depuis des années maintenant et il ne cesse de surprendre les artistes comme les
+        auditeurs à chaque nouvelle apparition : ses choix de production complexes qui nécessitent une maitrise de son art
+        profonde et ses connections à l’international font toujours parler de lui. On a pu le retrouver avec des grands artistes
+        de la scène américaine comme Quavo et Don Toliver ou la plateforme de « On The Radar ».</p>
+
+        <fig>
+            <div class="article__image-normale--conteneur">
+                <img src="/public/img/musique-bushi.webp" alt="musique-bushi" class="article__image--normale"/>
+            </div>
+            <figcaption>Photo de Bu$hi</figcaption>
+        </fig>
+
+        <h5>La ligne “peut-être qu’on a percé”</h5>
+        <p class="article__texte--normal">Dans sa musique « Parachute », Bu$hi cite le réalisateur : « peut-être qu’on a percé on dirait que je suis dans un film
+        de Wes Anderson ».</p>
+
+        <fig class="musique__image-bushi--conteneur">
+            <img src="/public/img/musique-cover.webp" alt="musique-cover" class="musique__image-bushi"/>
+            <figcaption>Cover du projet “Bushi tape 2”</figcaption>
+        </fig>
+
+        <p class="article__texte--normal">La musique est tirée de son projet « Bushi Tape 2 », sorti juste après son
+        ascension, cette ligne exprime donc la découverte de sa nouvelle vie en tant qu'artiste</p>
+        
+        <p class="article__texte--normal">Il la compare à un film de Wes Anderson, sa vie sors du commun et lui fais perdre ses repères. Sa référence
+        au réalisateur montre comment les artistes s’influencent entre eux et changent la manière dont ils voient le monde et
+        leur vie, particulièrement Wes Anderson qui possède un univers qui pousse à l’imagination et que chacun interprète à sa
+        manière, Bu$hi l’a bien retranscrit dans cette ligne en ne précisant pas pourquoi il compare sa vie à ces films. Ainsi,
+        on interprète chacun cette ligne à notre manière, de la même façon qu’on analyse et tire chacun quelque chose de
+        différent des films de Wes Anderson.</p>
+
+        
+
+        <div class="musique__bouton_spotify--conteneur">
+            <a href="https://open.spotify.com/intl-fr/track/0gCwo6Qgpqa2nIgpMDGeum?si=3fbd56d875bc4430">
+                <img src="/public/img/bouton-spotify.svg" alt="bouton-spotify" class="musique--bouton-spotify"/>
+            </a>
+        </div>
+
+        <div class="article__fin__bouton-suivant">
+            <a href="article-musique.html" class="article__fin__bouton-suivant--texte" >
+                Article suivant : Une musique associée →
+            </a>
+        </div>
+
+        <div class="fin__arabesque--conteneur">
+            <img src="/public/img/arabesque-bas-de-page.svg" class="fin__arabesque--bas-de-page">
+        </div>
+    </main>
+    <footer class="footer" x-show="!menuIsOpen">
+        <div class="footer__navigation">
+            <ul>
+                <li class="footer__navigation--item"><a href="/fr/aPropos.html">À propos</li></a>
+                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Autres projets</li></a>
+                <li class="footer__navigation--item"><a href="/fr/contact.html">Contact</li></a>
+            </ul>
+        </div>
+    
+        <div class="footer__boutonLangue--conteneur">
+            <a href="/en/index.html">
+                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
+            </a>
+        </div>
+    
+        <div class="footer__contact">
+            <p class="footer__contact--texte">Hugo PETIT - Groupe C2</p>
+            <p class="footer__contact--texte">hugopetit6996@gmail.com</p>
+        </div>
+    
+        <div class="footer__mentions">
+            <p class="footer__mentions--texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                dépatement MMI Montbéliard</p>
+        </div>
+    
+        <div footer="footer__logoMMI">
+            <img src="/public/img/logo-mmi.svg" alt="logo-mmi" class="footer__logoMMI--image" />
+        </div>
+    
+    </footer>
+    
+</body>
