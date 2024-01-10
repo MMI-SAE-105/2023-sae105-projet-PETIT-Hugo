@@ -47,3 +47,23 @@
     height: 33px;
     flex-shrink: 0;
 }
+
+.contact__bouton {
+    border: 3px solid #CDBFAE;
+    background: #75724a;
+    width: 286px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #CDBFAE;
+    font-family: Averia Libre;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+        
+}
+
+.contact__bouton--conteneur {
+    padding-left: 4px;
+    margin-top: 10px;
+}
