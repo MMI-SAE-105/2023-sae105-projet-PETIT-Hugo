@@ -16,12 +16,12 @@
 .contact {
     position: relative;
     z-index: 5;
-    top: 150px;
+    top: 70px;
     left: 39px;
 }
 
 .contact__espacement {
-    padding-top: 480px;
+    padding-top: 350px;
 }
 
 .contact__case {
@@ -66,4 +66,27 @@
 .contact__bouton--conteneur {
     padding-left: 4px;
     margin-top: 10px;
+}
+
+.contact__texte--conteneur {
+    position: relative;
+    z-index: 5;
+    width: 272px;
+    height: 64px;
+    flex-shrink: 0;
+    top: 70px;
+    left: 67px;
+
+}
+.contact__texte {
+    width: 226px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--Or, #DDD690);
+    text-align: center;
+    font-family: Averia Libre;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%
 }
