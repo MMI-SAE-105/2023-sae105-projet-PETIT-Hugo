@@ -78,7 +78,7 @@
 
         <p class="espace"></p>
         <p class="texte_centre">Cliquez sur les images pour accéder aux sites ↓</p>
-        
+
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}" x-show="!menuIsOpen">
             <div class="carrousel_parent-ecrans" x-ref="parent"
                 @scroll.debounce.250ms.passive="hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
@@ -132,7 +132,7 @@
         </div>
     
         <div class="footer__boutonLangue--conteneur">
-            <a href="/en/index.html">
+            <a href="/en/autresProjets.html">
                 <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
             </a>
         </div>
