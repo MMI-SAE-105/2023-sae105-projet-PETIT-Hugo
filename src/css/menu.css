@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     background: var(--Rouge-header, #9A0606);
+    padding-top: 55px;
     
 }
 
@@ -16,6 +17,7 @@
     border: none;
     background: var(--Or, #DDD690);
     transform: translate(0%, 8px);
+    z-index: 1001;
     
 }
 
