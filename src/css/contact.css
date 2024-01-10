@@ -1,3 +1,7 @@
 .contact__main {
     background-color: var(--rouge-accentuation-2, #A4261E);
 }
+
+.contact__titre--texte {
+    color: var(--rouge-accentuation, #E5000C);
+}
