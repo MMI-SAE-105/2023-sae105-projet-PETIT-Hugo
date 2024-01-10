@@ -76,11 +76,11 @@
     height: 64px;
     flex-shrink: 0;
     top: 70px;
-    left: 67px;
+    left: 60px;
 
 }
 .contact__texte {
-    width: 226px;
+    width: 250px;
     height: 64px;
     flex-shrink: 0;
     color: var(--Or, #DDD690);
