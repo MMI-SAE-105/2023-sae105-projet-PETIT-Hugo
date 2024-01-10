@@ -11,18 +11,18 @@
 
 <body>
     <header class="header">
-        <a href="index.html" class="header__logo--conteneur">
+        <div class="header__logo--conteneur">
             <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
-        </a>
+        </div>
         <div class="header__titre">
             <h1 class="header__titre--texte">Keep The Illusion</h1>
         </div>
-
+    
         <div class="header__menu--conteneurBouton">
             <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton" aria-controls="mainNav"
                 @click="menuIsOpen = !menuIsOpen" />
         </div>
-
+    
         <div id="mainNav" x-show="menuIsOpen" x-transition.duration.200ms class="menu">
             <div class="header">
                 <div class="header__logo--conteneur">
@@ -31,33 +31,33 @@
                 <div class="header__titre">
                     <h1 class="header__titre--texte">Keep The Illusion</h1>
                 </div>
-
+    
                 <div class="header__menu--conteneurBouton">
                     <img src="/public/img/icone-croix.svg" alt="icone_menu--croix" class="header__menu--croix"
                         aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" />
                 </div>
             </div>
-
+    
             <hr class="menu--barre" />
-
+    
             <nav>
                 <ul>
                     Articles
                     <img src="/public/img/icone-cle.svg" alt="icone-clé" />
                     <hr class="menu__titre--barre">
-                    <li><a href="article-citation.html">Une citation à retenir</a></li>
-                    <li><a href="article-film.html">Le film: The Grand Budapest Hotel</a></li>
-                    <li><a href="article-real.html">Le réalisateur : Wes Anderson</a></li>
-                    <li><a href="article-musique.html">Une musique associée</a></li>
-                    <li class="menu__item--bas"><a href="article-livre.html">Un livre similaire</a></li>
-                    Plus de contenus
+                    <li><a href="article-citation.html">A quote to remember</a></li>
+                    <li><a href="article-film.html">The movie : The Grand Budapest Hotel</a></li>
+                    <li><a href="article-real.html">The director : Wes Anderson</a></li>
+                    <li><a href="article-musique.html">A connected song</a></li>
+                    <li class="menu__item--bas"><a href="article-livre.html">A similar book</a></li>
+                    More content
                     <img src="/public/img/icone-cle.svg" alt="icone-clé" />
                     <hr class="menu__titre--barre">
-                    <li><a href="autreslivres.html">Autres livres</a></li>
-                    <li><a href="filmographie.html">Filmographie</a></li>
+                    <li><a href="autreslivres.html">Other books</a></li>
+                    <li><a href="filmographie.html">Filmography</a></li>
                 </ul>
             </nav>
-
+    
         </div>
     </header>
 
@@ -69,8 +69,8 @@
         </div>
         
         <div class="filmo__titre--conteneur">
-            <h4 class="filmo__titre--texte">Filmographie de</h4>
-            <h4 class="filmo__titre--texte2">Wes Anderson</h4>
+            <h4 class="filmo__titre--texte">Wes Anderson's</h4>
+            <h4 class="filmo__titre--texte2">Filmography</h4>
         </div>
         
         <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
@@ -86,8 +86,7 @@
                 <figcaption class="filmo__affiche--titre">Bottle Rocket (1996)</figcaption>
             </fig>
 
-            <p class="filmo__description">Tout premier long métrage de Wes Anderson en tant que réalisateur, le film est une comédie racontant l’histoire de 3
-            texans tentant de devenir de vrais criminels</p>
+            <p class="filmo__description">Wes Anderson's first movie as director, this comedy tells the story of 3 Texans trying to become real criminals.</p>
 
             <hr class="filmo__barre">
 
@@ -102,8 +101,7 @@
                 <figcaption class="filmo__affiche--titre">Rushmore (1998)</figcaption>
             </fig>
         
-            <p class="filmo__description">Dans ce film, on suit Max Fisher, élève de la Rushmore Academy, qui profite de l’établissement scolaire pour exprimer sa
-            créativité et ses plans bien plus que pour étudier</p>
+            <p class="filmo__description">Wes Anderson's first movie as director, this comedy tells the story of 3 Texans trying to become real criminals.</p>
         
             <hr class="filmo__barre">
         
@@ -114,11 +112,11 @@
                 <div class="filmo__affiche--conteneur">
                     <img src="/public/img/filmographie-famille-tenenbaum.webp" alt="filmo-tenenbaum" class="filmo__affiche--image" />
                 </div>
-                <figcaption class="filmo__affiche--titre">La Famille Tenenbraum (2001)</figcaption>
+                <figcaption class="filmo__affiche--titre">The Royal Tenembaums(2001)</figcaption>
             </fig>
         
-            <p class="filmo__description">20 ans près un divorce qui a séparé toute la famille, le père Tenenbaum tente une dernière fois de rassembler ses
-            enfants en simulant une grave maladie</p>
+            <p class="filmo__description">20 years after the divorce that separated the entire family, the father of the Tenenbaums tries one last time to reunite
+            his children by faking a serious illness.</p>
         
             <hr class="filmo__barre">
         
@@ -130,11 +128,11 @@
                     <img src="/public/img/filmographie-vie-aquatique.webp" alt="filmo-vie-aquatique"
                         class="filmo__affiche--image" />
                 </div>
-                <figcaption class="filmo__affiche--titre">La vie aquatique (2003)</figcaption>
+                <figcaption class="filmo__affiche--titre">The life aquatic with Steve Zissou (2003)</figcaption>
             </fig>
         
-            <p class="filmo__description">Conscient que cette expédition est probablement la dernière, Steve Z veut marquer son nom dans l’histoire et embarque
-            son équipage à travers tous les dangers.</p>
+            <p class="filmo__description">Aware that this expedition is likely to be his last, Steve Z wants to make history and takes his crew through all the
+            dangers.</p>
         
             <hr class="filmo__barre">
         
@@ -146,11 +144,11 @@
                     <img src="/public/img/filmographie-darjeeling.webp" alt="filmo-darjeeling"
                         class="filmo__affiche--image" />
                 </div>
-                <figcaption class="filmo__affiche--titre">A bord du Darjeeling Limited (2007)</figcaption>
+                <figcaption class="filmo__affiche--titre">The Darjeeling Limited (2007)</figcaption>
             </fig>
         
-            <p class="filmo__description">Trois frères qui viennent à peine de se rassembler après des années, se retoruvent perdus dans un désert avec onzes
-            valises, une imprimante, une machine à plastifier et des comptes à régler avec la vie...</p>
+            <p class="filmo__description">Three brothers, who have only just reunited after years, find themselves lost in a desert with eleven suitcases, a
+            printer, a laminating machine and a score to settle with life...</p>
         
             <hr class="filmo__barre">
         
@@ -164,8 +162,8 @@
                 <figcaption class="filmo__affiche--titre">Fantastic Mr.Fox (2008)</figcaption>
             </fig>
         
-            <p class="filmo__description">Wes Anderson s’essaye aux films d’animation et nous propose l’incroyable histoire de Mr.Fox et sa famille face à des
-            fermiers odieux.</p>
+            <p class="filmo__description">Wes Anderson tries his hand at animated films, giving us the incredible story of Mr. Fox and his family as they face off
+            against dangerous farmers.</p>
         
             <hr class="filmo__barre">
         
@@ -180,8 +178,8 @@
                 <figcaption class="filmo__affiche--titre">The Grand Budapest Hotel (2013)</figcaption>
             </fig>
         
-            <p class="filmo__description">Mr Gustave et son lobby boy Zero Mustafa se retrouvent dans les histoires d’héritages familiaux d’une des clientes les
-            plus prestigieuses après avoir reçu de sa part un tableau innestimable.</p>
+            <p class="filmo__description">Mr. Gustave and his lobby boy Zero Mustafa find themselves embroiled in the family inheritance affairs of one of their
+            most prestigious clients after receiving a priceless painting from her.</p>
         
             <hr class="filmo__barre">
         
@@ -193,11 +191,11 @@
                     <img src="/public/img/filmographie-ile-aux-chiens.webp" alt="filmo-ils-aux-chiens"
                         class="filmo__affiche--image" />
                 </div>
-                <figcaption class="filmo__affiche--titre">L’île aux chiens (2018)</figcaption>
+                <figcaption class="filmo__affiche--titre">Isle of dogs (2018)</figcaption>
             </fig>
         
-            <p class="filmo__description">Dans un Japon dystopique ravagé par une grippe canine, Atari, 12 ans, se rend l’Ile aux Chiens accompagné de 5 canidés,
-            pour retrouver son compagnon, mis en isolement là-bas.</p>
+            <p class="filmo__description">In a dystopian Japan ravaged by canine flu, 12-year-old Atari travels to the Isle of Dogs, accompanied by 5 canines, to
+            find his companion, who has been placed in isolation there.</p>
         
             <hr class="filmo__barre">
         
@@ -212,8 +210,8 @@
                 <figcaption class="filmo__affiche--titre">The French Dispatch (2021)</figcaption>
             </fig>
         
-            <p class="filmo__description">The French Dispatch est un magazine américain, ce film fait office de mise en scène du recueil d’histoire du dernier
-            numéro.</p>
+            <p class="filmo__description">The French Dispatch is an American magazine, and this film serves as the setting for the story collection in the latest
+            issue.</p>
         
             <hr class="filmo__barre">
         
@@ -228,8 +226,8 @@
                 <figcaption class="filmo__affiche--titre">Asteroid City (2023)</figcaption>
             </fig>
         
-            <p class="filmo__description">Asteroid city est une minuscule ville en plein désert, connue pour son immense cratère provoqué par une météorite et
-            depuis laquelle on peut apercevoir au loin des champignons atomiques provoqués par des essais nucléaires.</p>
+            <p class="filmo__description">Asteroid city is a tiny town in the middle of the desert, famous for its huge meteorite crater, from which atomic
+            mushrooms from nuclear testing can be seen in the distance.</p>
         
             <hr class="filmo__barre">
         
@@ -250,15 +248,15 @@
     <footer class="footer" x-show="!menuIsOpen">
         <div class="footer__navigation">
             <ul>
-                <li class="footer__navigation--item"><a href="/fr/aPropos.html">À propos</li></a>
-                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Autres projets</li></a>
-                <li class="footer__navigation--item"><a href="/fr/contact.html">Contact</li></a>
+                <li class="footer__navigation--item"><a href="/en/aPropos.html">About</li></a>
+                <li class="footer__navigation--item"><a href="/en/autresProjets.html">Other projects</li></a>
+                <li class="footer__navigation--item"><a href="/en/contact.html">Contact</li></a>
             </ul>
         </div>
     
         <div class="footer__boutonLangue--conteneur">
-            <a href="/en/index.html">
-                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
+            <a href="/fr/filmographie.html">
+                <img src="/public/img/bouton-eng.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
             </a>
         </div>
     
@@ -268,8 +266,8 @@
         </div>
     
         <div class="footer__mentions">
-            <p class="footer__mentions--texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
-                dépatement MMI Montbéliard</p>
+            <p class="footer__mentions--texte">This site is a project carried out as part of an educational exercise at the
+                Montbéliard MMI department.</p>
         </div>
     
         <div footer="footer__logoMMI">
