@@ -44,6 +44,7 @@ figcaption {
     justify-content: center;
     position: relative;
     z-index: 8;
+    padding-top: 60px;
     
 }
 
