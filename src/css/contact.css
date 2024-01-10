@@ -5,3 +5,14 @@
 .contact__titre--texte {
     color: var(--rouge-accentuation, #E5000C);
 }
+
+.contact__cadre--conteneur {
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.contact {
+    position: relative;
+    z-index: 5;
+}
