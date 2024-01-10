@@ -11,18 +11,18 @@
 
 <body>
     <header class="header">
-        <a href="index.html" class="header__logo--conteneur">
+        <div class="header__logo--conteneur">
             <img src="/public/img/logo.svg" alt="logo" class="header--logo" />
-        </a>
+        </div>
         <div class="header__titre">
             <h1 class="header__titre--texte">Keep The Illusion</h1>
         </div>
-
+    
         <div class="header__menu--conteneurBouton">
             <img src="/public/img/icone-menu.svg" alt="icone_menu" class="header__menu--bouton" aria-controls="mainNav"
                 @click="menuIsOpen = !menuIsOpen" />
         </div>
-
+    
         <div id="mainNav" x-show="menuIsOpen" x-transition.duration.200ms class="menu">
             <div class="header">
                 <div class="header__logo--conteneur">
@@ -31,33 +31,33 @@
                 <div class="header__titre">
                     <h1 class="header__titre--texte">Keep The Illusion</h1>
                 </div>
-
+    
                 <div class="header__menu--conteneurBouton">
                     <img src="/public/img/icone-croix.svg" alt="icone_menu--croix" class="header__menu--croix"
                         aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" />
                 </div>
             </div>
-
+    
             <hr class="menu--barre" />
-
+    
             <nav>
                 <ul>
                     Articles
                     <img src="/public/img/icone-cle.svg" alt="icone-clé" />
                     <hr class="menu__titre--barre">
-                    <li><a href="article-citation.html">Une citation à retenir</a></li>
-                    <li><a href="article-film.html">Le film: The Grand Budapest Hotel</a></li>
-                    <li><a href="article-real.html">Le réalisateur : Wes Anderson</a></li>
-                    <li><a href="article-musique.html">Une musique associée</a></li>
-                    <li class="menu__item--bas"><a href="article-livre.html">Un livre similaire</a></li>
-                    Plus de contenus
+                    <li><a href="article-citation.html">A quote to remember</a></li>
+                    <li><a href="article-film.html">The movie : The Grand Budapest Hotel</a></li>
+                    <li><a href="article-real.html">The director : Wes Anderson</a></li>
+                    <li><a href="article-musique.html">A connected song</a></li>
+                    <li class="menu__item--bas"><a href="article-livre.html">A similar book</a></li>
+                    More content
                     <img src="/public/img/icone-cle.svg" alt="icone-clé" />
                     <hr class="menu__titre--barre">
-                    <li><a href="autreslivres.html">Autres livres</a></li>
-                    <li><a href="filmographie.html">Filmographie</a></li>
+                    <li><a href="autreslivres.html">Other books</a></li>
+                    <li><a href="filmographie.html">Filmography</a></li>
                 </ul>
             </nav>
-
+    
         </div>
     </header>
 
@@ -68,7 +68,7 @@
         </div>
 
         <div class="article__titre--conteneur">
-            <h4 class="article__titre--texte">Une citation à retenir</h4>
+            <h4 class="article__titre--texte">A quote to remember</h4>
         </div>
 
         <div class="arabesque__bas--conteneur" x-show="!menuIsOpen">
@@ -76,11 +76,10 @@
         </div>
 
         <div class="article__chapeau">
-            <p class="article__chapeau--date">Publié le 24/10/2023 par Hugo Petit - Lecture 5min</p>
+            <p class="article__chapeau--date">Published the 10/24/2023 by Hugo Petit - 4min reading</p>
             
-            <p class="article__texte--normal">Les œuvres de Wes Anderson émerveillent par les visuels et les dialogues que le réalisateur propose à travers elles. The
-            Grand Budapest Hotel regorge de plans, de chorégraphies et de visuels mémorables. Celle qui m’a le plus marqué en est
-            devenu le titre du site : <q>Il a su entretenir l’illusion avec une grâce merveilleuse</q>.</p>
+            <p class="article__texte--normal">Wes Anderson's works marvel with the visuals and dialogue the director brings to them. The Grand Budapest Hotel is full
+            of memorable shots, actor’s choregraphy and visuals. The one that impressed me most became the title of the site: <q>He certainly sustained the illusion with a marvelous grace</q>.</p>
         </div>
 
         <div x-show="!menuIsOpen">
@@ -88,15 +87,14 @@
                 <video controls class="citation--extrait">
                     <source src="/public/video/extraitReplique.mp4">
                 </video>
-                <figcaption>Extrait du moment de la réplique dans le film (en englais)</figcaption>
+                <figcaption>Video of the moment of the line in the film</figcaption>
             </fig>
         </div>
 
-        <h5>L’illusionniste de l’Hôtel : Monsieur Gustave</h5>
+        <h5>The hotel's illusionist: Monsieur Gustave</h5>
         
-        <p class="article__texte--normal"> La réplique concerne le personnage de Monsieur Gustave, concierge de l’hôtel et
-        personnage principal. L’image qu’il
-        renvoie correspond à l’image de l’hôtel, il se doit donc de conserver
+        <p class="article__texte--normal"> The line concerns Monsieur Gustave, the hotel concierge and main character. His image reflects the image of the hotel,
+        so he must maintain a
         </p>
         
         <fig class="citation__image-gustave--conteneur">
@@ -104,9 +102,9 @@
             <figcaption>Mr. Gustave</figcaption>
         </fig>
 
-        <p class="article__texte--normal"> une apparence sophistiquée et élégante, peu
-        importe la situation et peu importe les meurtres dans lesquels il peut être impliqué. Les client se doivent de vivre une expérience personnalisée et le personnage excelle à proposer une expérience unique
-        peu importe les difficultés que rencontre l’hôtel.</p>
+        <p class="article__texte--normal"> sophisticated, elegant appearance, no matter what the situation, no matter what murders he may be involved in. Guests
+        need a personalized experience, and the character excels at delivering a unique experience, no matter what
+        difficulties the hotel is facing.</p>
      
         
 
@@ -114,34 +112,34 @@
 
 
 
-        <h5>L’illusion et la narration de Wes Anderson</h5>
-        <p class="article__texte--normal">L’illusion et la narration de Wes Anderson La réplique est prononcé par Zero Mustafa, qui raconte le passé du Grand
-        Budapest Hotel et son expérience en tant que lobby boy de l’hôtel. On vit l’histoire à travers ses souvenirs et la façon
-        dont son interlocuteur les imaginent. Ainsi Wes Anderson a pu chorégraphier l’histoire comme il souhaitait et introduire
-        son illusion dans le monde du Grand Budapest Hotel. Cette réplique rappelle la manière dont Wes Anderson nous guide dans
-        un monde avec ses couleurs, ses travers, et sa magie.</p>
+        <h5>Wes Anderson's illusion and narration</h5>
+        <p class="article__texte--normal">The line is delivered by Zero Mustafa, who tells the past of the Grand Budapest Hotel and his experience as the hotel's
+        lobby boy. We experience the story through his memories and the way his interlocutor sees them in his head. By this
+        method, Wes Anderson was able to choreograph the story as he wanted and introduce his illusion into the world of the
+        Grand Budapest Hotel. This line reminds the way Wes Anderson guides us through a world with its colors, its crazyness,
+        and its magic.</p>
 
         <fig>
             <div class="article__image-normale--conteneur">
                 <img src="/public/img/citation-table.webp" alt="citation-table" class="article__image--normale"/>
             </div>
-            <figcaption>Zero Mustafa racontant son histoire à une table de l’hôtel</figcaption>
+            <figcaption>Zero Mustafa telling his story at a hotel table</figcaption>
         </fig>
 
-        <h5>La conclusion d’un tour de magie cinématographique</h5>
-        <p class="article__texte--normal">La réplique puise sa force dans le moment où elle prononcée : c’est la dernière chose que Zero Mustafa dit au
-        journaliste qui écoute son histoire avant de partir définitivement dans l’ascenseur. Zero et Wes Anderson concluent tout
-        deux leur histoire sur cette réplique, l’un exprimant son admiration envers un Mr Gustave prêt à tout pour son hôtel et
-        l’autre refermant son film dans lequel il aura défié les critiques et poussé son esthétique jusqu’au bout.</p>
+        <h5>The conclusion of a cinematic magic trick</h5>
+        <p class="article__texte--normal">The line takes its strength from the moment it hits: it's the last thing Zero Mustafa says to the journalist listening
+        to his story, before he leaves him by going in the elevator. Both Zero and Wes Anderson conclude their stories with this
+        line, one expressing his admiration for a Mr. Gustave willing to do anything for his hotel, the other closing his film
+        in which he defied the critics and pushed his aesthetic to the limit.</p>
         
         <fig>
             <img src="/public/img/citation-ascenceur.webp" alt="citation-ascenceur" class="article__image--normale"/>
-            <figcaption>Zero Mustafa partant dans l’ascenseur</figcaption>
+            <figcaption>Zero Mustafa leaving through the elevator</figcaption>
         </fig>
 
         <div class="article__fin__bouton-suivant">
             <a href="article-film.html" class="article__fin__bouton-suivant--texte">
-                Article suivant : Le film, The Grand Budapest Hotel →
+                Next article : The movie, The Grand Budapest Hotel →
             </a>
         </div>
 
@@ -154,26 +152,26 @@
     <footer class="footer" x-show="!menuIsOpen">
         <div class="footer__navigation">
             <ul>
-                <li class="footer__navigation--item"><a href="/fr/aPropos.html">À propos</li></a>
-                <li class="footer__navigation--item"><a href="/fr/autresProjets.html">Autres projets</li></a>
-                <li class="footer__navigation--item"><a href="/fr/contact.html">Contact</li></a>
+                <li class="footer__navigation--item"><a href="/en/aPropos.html">About</li></a>
+                <li class="footer__navigation--item"><a href="/en/autresProjets.html">Other projects</li></a>
+                <li class="footer__navigation--item"><a href="/en/contact.html">Contact</li></a>
             </ul>
         </div>
     
         <div class="footer__boutonLangue--conteneur">
-            <a href="/en/index.html">
-                <img src="/public/img/bouton-fr.svg" alt="bouton-fr-a-en" class="footer__boutonLangue--bouton" />
+            <a href="/fr/article-citation.html">
+                <img src="/public/img/bouton-eng.svg" alt="bouton-en-a-fr" class="footer__boutonLangue--bouton" />
             </a>
         </div>
     
         <div class="footer__contact">
-            <p class="footer__contact--texte">Hugo PETIT - Groupe C2</p>
+            <p class="footer__contact--texte">Hugo PETIT - C2 Group</p>
             <p class="footer__contact--texte">hugopetit6996@gmail.com</p>
         </div>
     
         <div class="footer__mentions">
-            <p class="footer__mentions--texte">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
-                dépatement MMI Montbéliard</p>
+            <p class="footer__mentions--texte">This site is a project carried out as part of an educational exercise at the
+                Montbéliard MMI department.</p>
         </div>
     
         <div footer="footer__logoMMI">
